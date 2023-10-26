@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <div
-        className="h-screen bg-cover bg-no-repeat md:hidden md:bg-center"
+        className="h-screen bg-cover bg-right bg-no-repeat md:hidden"
         style={{ backgroundImage: "url('/images/hero_sm.webp')" }}
       >
         <HeroContent />
