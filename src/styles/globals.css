@@ -4,18 +4,27 @@
 
 @font-face {
   font-family: "Aurora";
-  src: url("/fonts/aurora.woff2") format("woff2");
+  src:
+    /* url("/fonts/aurora.woff2") format("woff2"),
+    url("/fonts/aurora.woff") format("woff"), */ url("/fonts/aurora.ttf")
+    format("ttf");
   /* Add other font styles like font-weight or font-style if needed */
 }
 
 @font-face {
   font-family: "Deco";
-  src: url("/fonts/deco.woff2") format("woff2");
+  src:
+    /* url("/fonts/deco.woff2") format("woff2"),
+    url("/fonts/deco.woff") format("woff"), */ url("/fonts/deco.ttf")
+    format("ttf");
   /* Add other font styles like font-weight or font-style if needed */
 }
 
 @font-face {
   font-family: "Glock";
-  src: url("/fonts/glock.woff2") format("woff2");
+  src:
+    /* url("/fonts/glock.woff2") format("woff2"),
+    url("/fonts/glock.woff") format("woff"), */ url("/fonts/glock.ttf")
+    format("ttf");
   /* Add other font styles like font-weight or font-style if needed */
 }
