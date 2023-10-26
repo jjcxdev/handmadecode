@@ -26,7 +26,7 @@ export const handleScroll = (containerRef: RefObject<HTMLDivElement>) => {
 
     console.log(`Current index before scroll: ${currentElementIndex}`);
 
-    let delta = Math.sign(e.deltaY);
+    const delta = Math.sign(e.deltaY);
     currentElementIndex += delta === 1 ? 1 : -1;
     currentElementIndex = Math.max(
       0,

@@ -28,7 +28,7 @@ const ServicesContent = () => (
       Need a digital solution?
     </div>
     <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[1.5vw]">
-      We've got the perfect punch card for that!
+      We&apos;ve got the perfect punch card for that!
     </div>
   </div>
 );

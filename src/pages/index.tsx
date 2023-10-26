@@ -3,7 +3,6 @@ import Image from "next/image";
 import { handleScroll } from "@/utils/scrollUtils";
 
 import Head from "next/head";
-import Link from "next/link";
 import About from "./about";
 import Clients from "./clients";
 import Services from "./services";

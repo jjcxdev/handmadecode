@@ -22,7 +22,7 @@ export default function About() {
 const AboutContent = () => (
   <div className="flex h-full w-full flex-col items-end justify-end p-4 md:justify-center md:p-24">
     <div className="font-aurora h-fit w-full text-[9vw] leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[4vw]">
-      Who's dropping the needle?
+      Who&apos;s dropping the needle?
     </div>
     <div className="font-glock h-fit w-full text-[9vw] uppercase leading-none text-neutral-50 md:max-w-4xl md:pt-8 md:text-[5vw]">
       Handmade Code
