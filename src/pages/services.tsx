@@ -28,7 +28,7 @@ const ServicesContent = () => (
     <div className="font-aurora h-fit w-full text-[9vw] leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[4vw]">
       Need a digital solution?
     </div>
-    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[1.5vw]">
+    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:block md:max-w-4xl md:text-[1.5vw]">
       We&apos;ve got the perfect punch card for that!
     </div>
   </div>

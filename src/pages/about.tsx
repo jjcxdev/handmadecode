@@ -29,7 +29,7 @@ const AboutContent = () => (
     <div className="font-glock h-fit w-full text-[9vw] uppercase leading-none text-neutral-50 md:max-w-4xl md:pt-8 md:text-[5vw]">
       Handmade Code
     </div>
-    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[1.5vw]">
+    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:block md:max-w-4xl md:text-[1.5vw]">
       Your trailblazers in the odyssey of ones and zeros
     </div>
   </div>

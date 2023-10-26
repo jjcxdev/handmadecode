@@ -25,7 +25,7 @@ const HeroContent = () => (
     <div className="font-aurora h-fit w-full text-[9vw] leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[4vw]">
       Where tomorrow&apos;s dreams are built with today’s high-tech tools.
     </div>
-    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[1.5vw]">
+    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:block md:max-w-4xl md:text-[1.5vw]">
       Like 8-bits and floppy disks!
     </div>
   </div>
