@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Aurora";
+  src: url("/fonts/aurora.woff2") format("woff2");
+  /* Add other font styles like font-weight or font-style if needed */
+}
+
+@font-face {
+  font-family: "Deco";
+  src: url("/fonts/deco.woff2") format("woff2");
+  /* Add other font styles like font-weight or font-style if needed */
+}
+
+@font-face {
+  font-family: "Glock";
+  src: url("/fonts/glock.woff2") format("woff2");
+  /* Add other font styles like font-weight or font-style if needed */
+}

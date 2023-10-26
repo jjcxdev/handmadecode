@@ -6,7 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        aurora: ["Aurora", "system-ui"],
+        deco: ["Deco", "system-ui"],
+        glock: ["Glock", "system-ui"],
       },
     },
   },
