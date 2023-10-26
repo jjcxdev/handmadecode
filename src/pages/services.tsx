@@ -3,20 +3,21 @@ import React from "react";
 export default function Services() {
   return (
     <>
-      {" "}
-      <div
-        className="h-screen bg-cover bg-no-repeat md:hidden"
-        style={{ backgroundImage: "url('/images/services_sm.webp')" }}
-      >
-        {" "}
-        <ServicesContent />
-      </div>
-      <div
-        className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
-        style={{ backgroundImage: "url('/images/services.webp')" }}
-      >
-        {" "}
-        <ServicesContent />
+      <div>
+        <div>
+          <div
+            className="h-screen bg-cover bg-no-repeat md:hidden"
+            style={{ backgroundImage: "url('/images/services_sm.webp')" }}
+          >
+            <ServicesContent />
+          </div>
+          <div
+            className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
+            style={{ backgroundImage: "url('/images/services.webp')" }}
+          >
+            <ServicesContent />
+          </div>
+        </div>
       </div>
     </>
   );

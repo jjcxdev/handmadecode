@@ -3,17 +3,19 @@ import React from "react";
 export default function Hero() {
   return (
     <>
-      <div
-        className="h-screen bg-cover bg-no-repeat md:hidden"
-        style={{ backgroundImage: "url('/images/hero_sm.webp')" }}
-      >
-        <HeroContent />
-      </div>
-      <div
-        className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
-        style={{ backgroundImage: "url('/images/hero.webp')" }}
-      >
-        <HeroContent />
+      <div>
+        <div
+          className="h-screen bg-cover bg-no-repeat md:hidden"
+          style={{ backgroundImage: "url('/images/hero_sm.webp')" }}
+        >
+          <HeroContent />
+        </div>
+        <div
+          className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
+          style={{ backgroundImage: "url('/images/hero.webp')" }}
+        >
+          <HeroContent />
+        </div>
       </div>
     </>
   );

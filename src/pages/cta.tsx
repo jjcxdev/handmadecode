@@ -3,18 +3,19 @@ import React from "react";
 export default function CTA() {
   return (
     <>
-      <div
-        className="h-screen bg-cover bg-center bg-no-repeat md:hidden"
-        style={{ backgroundImage: "url('/images/cta_sm.webp')" }}
-      >
-        <Content />
-      </div>
-      <div
-        className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
-        style={{ backgroundImage: "url('/images/cta.webp')" }}
-      >
-        {" "}
-        <Content />
+      <div>
+        <div
+          className="h-screen bg-cover bg-center bg-no-repeat md:hidden"
+          style={{ backgroundImage: "url('/images/cta_sm.webp')" }}
+        >
+          <Content />
+        </div>
+        <div
+          className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
+          style={{ backgroundImage: "url('/images/cta.webp')" }}
+        >
+          <Content />
+        </div>
       </div>
     </>
   );

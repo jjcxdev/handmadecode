@@ -3,17 +3,19 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <div
-        className="h-screen bg-cover bg-no-repeat md:hidden"
-        style={{ backgroundImage: "url('/images/about_sm.webp')" }}
-      >
-        <AboutContent />
-      </div>
-      <div
-        className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
-        style={{ backgroundImage: "url('/images/about.webp')" }}
-      >
-        <AboutContent />
+      <div>
+        <div
+          className="h-screen bg-cover bg-no-repeat md:hidden"
+          style={{ backgroundImage: "url('/images/about_sm.webp')" }}
+        >
+          <AboutContent />
+        </div>
+        <div
+          className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
+          style={{ backgroundImage: "url('/images/about.webp')" }}
+        >
+          <AboutContent />
+        </div>
       </div>
     </>
   );

@@ -3,17 +3,19 @@ import React from "react";
 export default function Clients() {
   return (
     <>
-      <div
-        className="h-screen bg-cover bg-no-repeat md:hidden"
-        style={{ backgroundImage: "url('/images/clients_sm.webp')" }}
-      >
-        <ClientsContent />
-      </div>
-      <div
-        className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
-        style={{ backgroundImage: "url('/images/clients.webp')" }}
-      >
-        <ClientsContent />
+      <div>
+        <div
+          className="h-screen bg-cover bg-no-repeat md:hidden"
+          style={{ backgroundImage: "url('/images/clients_sm.webp')" }}
+        >
+          <ClientsContent />
+        </div>
+        <div
+          className="hidden h-screen bg-cover bg-center bg-no-repeat md:block"
+          style={{ backgroundImage: "url('/images/clients.webp')" }}
+        >
+          <ClientsContent />
+        </div>
       </div>
     </>
   );
