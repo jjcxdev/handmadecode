@@ -7,7 +7,7 @@ export const handleScroll = (containerRef: RefObject<HTMLDivElement>) => {
   return (e: WheelEvent) => {
     const currentTime = new Date().getTime();
 
-    if (currentTime - lastScrollTime < 400) {
+    if (currentTime - lastScrollTime < 100) {
       console.log("Dampened scroll event");
       return;
     }

@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="relative min-h-screen">
-        <nav className="sticky top-0 z-50 flex h-14 w-full flex-row justify-between bg-transparent  px-4 md:h-36 md:px-24">
+        <nav className="fixed top-0 z-50 flex h-14 w-full flex-row justify-between bg-transparent px-4 md:h-36 md:px-24">
           <div className="flex h-full w-1/3 items-center">
             <Image
               src="/images/hc_logo.svg"
