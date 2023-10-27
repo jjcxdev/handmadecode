@@ -3,31 +3,36 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Aurora";
+  font-family: "aurora";
   src:
-    url("/fonts/aurora.woff2") format("woff2"),
-    url("/fonts/aurora.woff") format("woff"),
-    url("/fonts/aurora.ttf") format("ttf");
+    url("/fonts/aurora/Aurora.woff2") format("woff2"),
+    url("/fonts/aurora/Aurora.woff") format("woff"),
+    url("/fonts/aurora/Aurora.eot") format("eot"),
+    url("/fonts/aurora/Aurora.svg") format("svg"),
+    url("/fonts/aurora/Aurora.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Deco";
+  font-family: "deco";
   src:
-    url("/fonts/deco.woff2") format("woff2"),
-    url("/fonts/deco.woff") format("woff"),
-    url("/fonts/deco.ttf") format("ttf");
+    url("/fonts/deco/MarketDeco.woff2") format("woff2"),
+    url("/fonts/deco/MarketDeco.woff") format("woff"),
+    url("/fonts/deco/MarketDeco.eot") format("eot"),
+    url("/fonts/deco/MarketDeco.svg") format(".svg"),
+    url("/fonts/deco/MarketDeco.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Glock";
+  font-family: "glock";
+  src: url("/fonts/glock/lt_glockenspiel_black-webfont.eot");
   src:
-    url("/fonts/glock.woff2") format("woff2"),
-    url("/fonts/glock.woff") format("woff"),
-    url("/fonts/glock.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
+    url("/fonts/glock/lt_glockenspiel_black-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/glock/lt_glockenspiel_black-webfont.woff") format("woff"),
+    url("/fonts/glock/lt_glockenspiel_black-webfont.ttf") format("truetype"),
+    url("/fonts/glock/lt_glockenspiel_black-webfont.svg#webfont") format("svg");
 }
