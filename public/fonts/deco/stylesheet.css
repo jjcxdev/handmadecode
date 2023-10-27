@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Market Deco';
+    src: url('MarketDeco.eot');
+    src: url('MarketDeco.eot?#iefix') format('embedded-opentype'),
+        url('MarketDeco.woff2') format('woff2'),
+        url('MarketDeco.woff') format('woff'),
+        url('MarketDeco.ttf') format('truetype'),
+        url('MarketDeco.svg#MarketDeco') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

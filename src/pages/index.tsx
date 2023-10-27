@@ -36,9 +36,23 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Homemade Code</title>
+        <title>Handmade Code</title>
         <meta name="description" content="powered by jjcx" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/fonts/aurora/Aurora.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/aurora/Aurora.woff"
+          as="font"
+          type="font/woff"
+          crossOrigin="anonymous"
+        />
       </Head>
       <main className="relative min-h-screen">
         <nav className="fixed top-0 z-50 flex h-14 w-full flex-row justify-between bg-transparent px-4 md:h-36 md:px-24">
