@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@/components/button";
 
 export default function Services() {
   return (
@@ -24,12 +25,17 @@ export default function Services() {
 }
 
 const ServicesContent = () => (
-  <div className="flex h-full w-full flex-col items-start justify-start p-4 pt-20 md:justify-center md:p-24">
-    <div className="h-fit w-full font-aurora text-[9vw] leading-none text-neutral-100 md:max-w-4xl md:text-[4vw]">
-      Need a digital solution?
+  <div className="flex h-full w-full flex-col items-start justify-between p-4 pt-20 md:justify-center md:p-24">
+    <div>
+      <div className="h-fit w-full font-aurora text-[9vw] leading-none text-neutral-100 md:max-w-4xl md:text-[4vw]">
+        Need a digital solution?
+      </div>
+      <div className="h-fit w-full py-2 font-deco text-[4vw] leading-none text-neutral-100 md:block md:max-w-4xl md:text-[1.5vw]">
+        We&apos;ve got the perfect punch card for that!
+      </div>
     </div>
-    <div className="h-fit w-full py-2 font-deco text-[4vw] leading-none text-neutral-100 md:block md:max-w-4xl md:text-[1.5vw]">
-      We&apos;ve got the perfect punch card for that!
+    <div className="flex h-full w-full items-end justify-center pb-10">
+      <Button title="Dig our Skills" />
     </div>
   </div>
 );
