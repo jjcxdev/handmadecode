@@ -1,3 +1,5 @@
+![Handmade Code Logo](/images/hc_logo.svg)
+
 # Handmade Code Official Website
 
 Welcome to the official GitHub repository for the Handmade Code website. We're your technological vanguard, ushering you into the future of web design.
