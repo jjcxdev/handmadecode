@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  background-color: #ee8554;
+}
+
 @font-face {
   font-family: "aurora";
   src:
