@@ -22,11 +22,11 @@ export default function Clients() {
 }
 
 const ClientsContent = () => (
-  <div className="flex h-full w-full flex-col items-end justify-end p-4 md:justify-center md:p-24">
-    <div className="font-aurora h-fit w-full text-[9vw] leading-none text-neutral-100 shadow-sm md:max-w-4xl md:text-[4vw]">
+  <div className="flex h-full w-full flex-col items-end justify-start p-4 pt-20 md:justify-center md:p-24">
+    <div className="h-fit w-full font-aurora text-[9vw] leading-none text-neutral-100 md:max-w-4xl md:text-[4vw]">
       Rave reviews on the CB radio.
     </div>
-    <div className="font-deco hidden h-fit w-full py-8 leading-none text-neutral-100 shadow-sm md:block md:max-w-4xl md:text-[1.5vw]">
+    <div className="h-fit w-full py-2 font-deco text-[4vw] leading-none text-neutral-100 md:block md:max-w-4xl md:text-[1.5vw]">
       Handmade Code -- sharper than a laserdisc!
     </div>
   </div>
