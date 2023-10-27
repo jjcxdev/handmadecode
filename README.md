@@ -1,4 +1,4 @@
-![Handmade Code Logo](/images/hc_logo.svg)
+![Handmade Code Logo](https://github.com/jjcxdev/homemadecode/blob/main/public/images/hc_logo.svg)
 
 # Handmade Code Official Website
 
