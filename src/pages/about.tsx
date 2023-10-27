@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div>
         <div
-          className="h-screen bg-cover bg-no-repeat md:hidden"
+          className="h-screen bg-cover bg-center bg-no-repeat md:hidden"
           style={{ backgroundImage: "url('/images/about_sm.webp')" }}
         >
           <AboutContent />
