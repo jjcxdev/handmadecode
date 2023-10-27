@@ -35,7 +35,7 @@ const AboutContent = () => (
         Your trailblazers in the odyssey of ones and zeros
       </div>
     </div>
-    <div className="flex h-full w-full items-end justify-center pb-10">
+    <div className="flex h-full w-full items-end justify-center pb-10 md:hidden">
       <Button title="Meet the Dorks" />
     </div>
   </div>

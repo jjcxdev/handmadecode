@@ -32,7 +32,7 @@ const ClientsContent = () => (
         Handmade Code -- sharper than a laserdisc!
       </div>
     </div>
-    <div className="flex h-full w-full items-end justify-center pb-10">
+    <div className="flex h-full w-full items-end justify-center pb-10 md:hidden">
       <Button title="The Buzz" />
     </div>
   </div>

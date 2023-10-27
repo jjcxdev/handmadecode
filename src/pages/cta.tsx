@@ -27,7 +27,7 @@ const Content = () => (
     <div className="flex h-fit w-full max-w-[100rem] flex-wrap text-center font-aurora text-[9vw] leading-none text-neutral-50 md:text-[4vw]">
       Contact us for Web Design that&apos;s ahead of its time.
     </div>
-    <div className="flex h-full w-full items-end justify-center pb-10">
+    <div className="flex h-full w-full items-end justify-center pb-10 md:hidden">
       <Button title="Send us a fax" />
     </div>
   </div>
