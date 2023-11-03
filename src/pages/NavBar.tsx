@@ -9,7 +9,7 @@ export default function NavBar() {
   const handleKeyDown = (
     e: React.KeyboardEvent<HTMLAnchorElement>,
     href: string,
-    newTab: boolean = false,
+    newTab: false,
   ) => {
     if (e.key === " " || e.key === "Enter") {
       e.preventDefault();
