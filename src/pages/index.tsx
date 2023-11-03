@@ -2,13 +2,14 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import { handleScroll } from "@/utils/scrollUtils";
 
-import Head from "next/head";
 import About from "@/pages/About";
 import Clients from "@/pages/Clients";
 import Services from "@/pages/Services";
 import CTA from "@/pages/Cta";
 import Hero from "@/pages/Hero";
 import NavBar from "@/pages/NavBar";
+
+import Head from "next/head";
 
 const Home: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
