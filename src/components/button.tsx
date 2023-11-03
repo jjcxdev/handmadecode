@@ -2,6 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   title?: string;
+  href?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({ title }) => {

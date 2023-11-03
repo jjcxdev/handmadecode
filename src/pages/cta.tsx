@@ -28,7 +28,7 @@ const Content = () => (
       Contact us for Web Design that&apos;s ahead of its time.
     </div>
     <div className="flex h-full w-full items-end justify-center pb-10 md:hidden">
-      <Button title="Send us a fax" />
+      <Button title="Send us a fax" href="mailto:j@jjcx.dev" />
     </div>
   </div>
 );

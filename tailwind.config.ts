@@ -10,6 +10,10 @@ export default {
         deco: ["deco", "system-ui"],
         glock: ["glock", "system-ui"],
       },
+      fontSize: {
+        "2xs": "0.5rem",
+        "3xs": "0.4rem",
+      },
     },
   },
   plugins: [],
