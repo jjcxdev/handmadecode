@@ -1,3 +1,16 @@
+@keyframes reveal {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.loadingImageReveal {
+  animation: reveal 8s forwards;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -5,6 +5,11 @@ export default {
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
+      blur: {
+        sm: "2px",
+        md: "4px",
+        lg: "8px",
+      },
       fontFamily: {
         aurora: ["aurora", "system-ui"],
         deco: ["deco", "system-ui"],

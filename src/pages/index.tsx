@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import LoadingImage from "@/components/LoadingImage";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { handleScroll } from "@/utils/scrollUtils";
 import NavBar from "./NavBar";
@@ -12,6 +13,7 @@ import Head from "next/head";
 
 const Home: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const scrollHandler = handleScroll(containerRef);
@@ -32,6 +34,13 @@ const Home: React.FC = () => {
         }
       };
     }
+  });
+
+  useEffect(() => {
+    const loadingTimeout = setTimeout(() => {
+      setIsLoading(false);
+    }, 8000);
+    return () => clearTimeout(loadingTimeout);
   }, []);
 
   return (
@@ -55,6 +64,14 @@ const Home: React.FC = () => {
           crossOrigin="anonymous"
         />
       </Head>
+      {isLoading && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-orange-900">
+          <LoadingImage
+            finalSrc="/images/loadingFinal.png"
+            alt="Handmade Code Loading"
+          />
+        </div>
+      )}
       <main className="relative min-h-screen">
         <NavBar />
         <div ref={containerRef}>
