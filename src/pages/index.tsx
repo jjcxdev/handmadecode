@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import { handleScroll } from "@/utils/scrollUtils";
-import NavBar from "./navbar";
-import Hero from "./hero";
-import About from "./about";
-import Services from "./services";
-import Clients from "./clients";
-import CTA from "./cta";
+import NavBar from "./NavBar";
+import Hero from "./Hero";
+import About from "./About";
+import Services from "./Services";
+import Clients from "./Clients";
+import CTA from "./Cta";
 
 import Head from "next/head";
 

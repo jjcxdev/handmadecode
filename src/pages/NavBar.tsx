@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import MenuToggle from "@/components/menutoggle";
+import MenuToggle from "@/components/MenuToggle";
 
 export default function NavBar() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
