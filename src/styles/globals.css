@@ -1,3 +1,6 @@
+@import "@fontsource/press-start-2p";
+@import "@fontsource/silkscreen";
+
 @keyframes reveal {
   from {
     clip-path: inset(0 0 100% 0);
@@ -33,6 +36,28 @@ html {
 }
 
 @font-face {
+  font-family: "start";
+  src:
+    url("/fonts/press/press-start-2p-latin-400-normal.woff2") format("woff2"),
+    url("/fonts/press/press-start-2p-latin-400-normal.woff") format("woff"),
+    url("/fonts/press/press-start-2p-latin-400-normal.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "silk";
+  src:
+    url("/fonts/silk/silkscreen-latin-400-normal.woff2") format("woff2"),
+    url("/fonts/silk/silkscreen-latin-400-normal.woff") format("woff"),
+    url("/fonts/silk/silkscreen-latin-400-normal.ttf") format("ttf"),
+    url("/fonts/silk/silkscreen-latin-700-normal.woff2") format("woff2"),
+    url("/fonts/silk/silkscreen-latin-700-normal.woff") format("woff"),
+    url("/fonts/silk/silkscreen-latin-700-normal.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "deco";
   src:
     url("/fonts/deco/MarketDeco.woff2") format("woff2"),
@@ -53,4 +78,8 @@ html {
     url("/fonts/glock/lt_glockenspiel_black-webfont.woff") format("woff"),
     url("/fonts/glock/lt_glockenspiel_black-webfont.ttf") format("truetype"),
     url("/fonts/glock/lt_glockenspiel_black-webfont.svg#webfont") format("svg");
+}
+
+.press-start-font {
+  font-family: "Press Start 2P", cursive; /* Fallback to cursive if desired */
 }
