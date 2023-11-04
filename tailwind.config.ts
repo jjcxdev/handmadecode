@@ -11,9 +11,16 @@ export default {
         lg: "8px",
       },
       fontFamily: {
-        aurora: ["aurora", "system-ui"],
-        deco: ["deco", "system-ui"],
-        glock: ["glock", "system-ui"],
+        aurora: [
+          "aurora",
+          '"Press Start 2P"',
+          "system-ui",
+          ...fontFamily.serif,
+        ],
+        deco: ["deco", "sans-serif", ...fontFamily.sans],
+        glock: ["glock", "serif", ...fontFamily.serif],
+        "press-start": ['"Press Start 2P"', "cursive"],
+        silk: ["Silkscreen", "sans-serif", ...fontFamily.sans],
       },
       fontSize: {
         "2xs": "0.5rem",

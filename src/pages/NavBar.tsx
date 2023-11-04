@@ -44,7 +44,7 @@ export default function NavBar() {
         <div className="h-full w-1/3"></div>
         <div className="flex h-full w-1/3 items-center justify-end text-neutral-100">
           <div className="flex flex-row items-center justify-center gap-2">
-            <div className="flex-col font-deco md:flex md:text-[1.2vw]">
+            <div className="font-silk flex-col md:flex md:text-[1.2vw]">
               <span className="flex justify-end leading-none">Enter the</span>
               <span className="flex justify-end leading-none">Mainframe</span>
             </div>

@@ -9,6 +9,8 @@ import Services from "./Services";
 import Clients from "./Clients";
 import CTA from "./Cta";
 
+import "@fontsource/press-start-2p";
+
 import Head from "next/head";
 
 const Home: React.FC = () => {
